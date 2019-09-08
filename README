@@ -1,0 +1,13 @@
+# Hand Writting Recognition
+
+Neural network to recognise hand writting number (0-9)
+The Neural network is composed of:
+    - Input layer of 28x28 neurons (size of each image) which is flattened
+    - Hidden layers of 512 neurons
+    - Output layers of 10 neurons for the classification (each one corresponds to a number)
+    
+    
+Data is from mnist
+Implemented with Keras 
+
+The Callback function provides to stop network when 99% of accuracy is met. 
